@@ -57,7 +57,7 @@ library
       Language.Haskell.GhciWrapper
       Paths_doctest
   build-depends:
-      base ==4.*
+      base >=4 && <5
     , base-compat >=0.7.0
     , code-page >=0.1
     , deepseq
@@ -78,7 +78,7 @@ executable doctest
   hs-source-dirs:
       driver
   build-depends:
-      base ==4.*
+      base >=4 && <5
     , base-compat >=0.7.0
     , code-page >=0.1
     , deepseq
@@ -99,7 +99,7 @@ test-suite doctests
   hs-source-dirs:
       test
   build-depends:
-      base ==4.*
+      base >=4 && <5
     , base-compat >=0.7.0
     , code-page >=0.1
     , deepseq
